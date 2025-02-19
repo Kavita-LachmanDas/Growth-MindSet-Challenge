@@ -122,8 +122,7 @@ if page == "Profile":
                 st.markdown(f'<div class="quote-box">{get_mindset_quote()}</div>', 
                            unsafe_allow_html=True)
 
-    with col2:
-        st.image("https://via.placeholder.com/200", caption="Profile Picture")
+   
 
 elif page == "Skills & Achievements":
     st.header("🎯 Skills & Achievements Tracker")
